@@ -84,13 +84,23 @@ html {
     height: 100%;
     display: grid;
     grid-template-columns: 60% 40%;
+    padding: 0 30px;
 }
 
-.search-bar {
+.search-icon-bar {
     height: 100%;
     display: flex;
     justify-content: start;
     align-items: center;
+    gap: 10px;
+}
+
+.search-bar {
+    width: 75%;
+    border-radius: 20px;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
 }
 
 .header .icon-img {
@@ -102,13 +112,23 @@ html {
 .user-icons {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: end;
+    gap: 50px;
 }
 
 .profile-img {
     width: 50px;
     height: 50px;
     object-fit: fill;
+}
+
+.user-name {
+    font-family: var(--text-font);
+    font-weight: bold;
+}
+
+.header-top .user-name {
+    font-size: 20px;
 }
 
 .main-content {
