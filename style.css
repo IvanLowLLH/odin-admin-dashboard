@@ -185,4 +185,25 @@ html {
 .card {
     background-color: white;
     border: 1px solid #ccc;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+}
+
+.card-button {
+    border: 0px;
+    background-color: white;
+}
+
+.card-icon {
+    width: 25px;
+    height: 25px;
+    object-fit: fill;
 }
