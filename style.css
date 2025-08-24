@@ -81,7 +81,6 @@ html {
 }
 
 .header-top {
-    height: 100%;
     display: grid;
     grid-template-columns: 60% 40%;
     padding: 0 30px;
@@ -109,7 +108,8 @@ html {
     object-fit: fill;
 }
 
-.user-icons {
+.user-icons,
+.dash-buttons-container {
     display: flex;
     align-items: center;
     justify-content: end;
@@ -129,6 +129,33 @@ html {
 
 .header-top .user-name {
     font-size: 20px;
+}
+
+.header-bottom {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 0 30px;
+}
+
+.profile-welcome {
+    display: flex;
+    justify-self: start;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-bottom .profile-img {
+    width: 75px;
+    height: 75px;
+}
+
+.dash-buttons {
+    color: white;
+    background-color: #1992d4;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 15px 30px;
 }
 
 .main-content {
