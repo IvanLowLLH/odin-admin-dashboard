@@ -166,5 +166,23 @@ html {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     background-color: var(--light-grey);
+    display: grid;
+    grid-template-columns: 75% 25%;
 }
 
+.text-cards-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+}
