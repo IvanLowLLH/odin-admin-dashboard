@@ -40,20 +40,28 @@ html {
     display: flex;
     justify-content: start;
     align-items: center;
-    gap: 10px
+    gap: 10px;
+    padding-left: 25px;
+}
+
+.sidebar-menu ul {
+    padding: 0;
 }
 
 .icon-img {
     width: 50px;
     height: 50px;
     object-fit: fill;
-    filter: invert(100%);
-        /* Completely inverts colors */
+    filter: invert(100%); /* Completely inverts colors */
 }
 
 .sidebar-menu .icon-img {
     width: 30px;
     height: 30px;
+}
+
+.sidebar-menu .icon-text {
+    padding-left: 35px;
 }
 
 .sidebar-menu li {
