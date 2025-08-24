@@ -170,7 +170,8 @@ html {
     grid-template-columns: 75% 25%;
 }
 
-.text-cards-container {
+.text-cards-container,
+.main-content-side {
     display: flex;
     flex-direction: column;
     padding: 0 30px;
@@ -207,4 +208,37 @@ html {
     width: 25px;
     height: 25px;
     object-fit: fill;
+}
+
+.announcement-container,
+.users-main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.annoucement-text-box,
+.users-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.line {
+    width: 100%;
+    border: 1px solid var(--light-grey);
+}
+
+.user .profile-img {
+    width: 50px;
+    height: 50px;
+    object-fit: fill;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
