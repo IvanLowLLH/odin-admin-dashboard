@@ -48,7 +48,7 @@ html {
     padding: 0;
 }
 
-.icon-img {
+.sidebar .icon-img {
     width: 50px;
     height: 50px;
     object-fit: fill;
@@ -71,12 +71,44 @@ html {
     font-family: var(--text-font);
 }
 
-
-
+/* Header */
 .header {
     border: 1px solid black;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    display: grid;
+    grid-template-rows: 30% 70%;
+}
+
+.header-top {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.search-bar {
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.header .icon-img {
+    width: 30px;
+    height: 30px;
+    object-fit: fill;
+}
+
+.user-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-img {
+    width: 50px;
+    height: 50px;
+    object-fit: fill;
 }
 
 .main-content {
